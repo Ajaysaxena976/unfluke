@@ -1,0 +1,20 @@
+/* In your CSS file */
+.navbar-custom-bg {
+    background-color: #D0A2F7 !important;
+    /* Use!important to override existing styles */
+}
+.extra-margin{
+    margin-right:200px;
+}
+/* CSS */
+.nav-dropdown-item:hover {
+    background-color: #f8c794;
+    /* Gold background on hover */
+    color: #ff6347;
+    /* Tomato text color on hover */
+}
+
+/* If you want to change the cursor on hover over the dropdown button */
+#collapsible-nav-dropdown:hover.nav-dropdown-button {
+    cursor: pointer;
+}
